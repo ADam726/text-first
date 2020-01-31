@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .header{
+            height: 90px;
+        }
+        #logo {
+            width: 70px;
+        }
+        .head{
+            margin:0 300px 0 300px;
+            height: 90px;
+        }
+        .nav-menu{
+            margin-top:-75px;
+            margin-left:60px;
+        }
+
+        ul {
+            list-style-type: none;
+
+        }
+
+        .list1 {
+            float: left;
+            margin: 20px;
+        }
+
+        .list1 a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .list1 a:hover {
+            text-decoration: underline;
+            text-decoration-color: #F6C813;
+        }
+
+        .list2 {
+            display: none;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+        }
+
+        .list1:hover .list2 {
+            display: block;
+        }
+        .hbutton{
+            margin-top:20px;
+            border-radius: 40%;
+            width:80px;
+        }
+        .aside{
+            position: fixed;
+            top:45%;
+            left:89%;
+        }
+        .btnTop{
+            position: fixed;
+            top:90%;
+            left:94%;
+        }
+        table{
+            margin-left:140px;
+            border-spacing: 20px;
+        }
+        caption{
+            float:left;
+            font-weight: bolder;
+            font-size: 30px;
+            margin:20px 0 20px 0;
+        }
+        .pic img{
+            width: 400px;
+            height:300px;
+        }
+        footer{
+            background-color: #424242;
+            color:white;
+        }
+        .foot1{
+            margin-left: 50px;
+            display: inline-block;
+            font-weight: bold;
+            line-height: 30px;
+            width: 250px;
+        }
+        .foot2{
+            display: inline-block;
+            line-height: 30px;
+            width: 250px;
+            font-size: small;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="head">
+            <img id="logo" src="logo.png">
+            <nav class="nav-menu">
+                <ul class="menu-bar">
+                    <li class="list1">
+                        <a href="#">Menu</a>
+                        <ul class="list2">
+                            <li>버거</li>
+                            <li>맥모닝</li>
+                            <li>해피밀</li>
+                            <li>사이드&디저트</li>
+                            <li>맥카페&음료</li>
+                            <li>365일 즐거운 혜택</li>
+                        </ul>
+                    </li>
+                    <li class="list1">
+                        <a href="#">Store</a>
+                        <ul class="list2">
+                            <li>매장찾기</li>
+                            <li>맥딜리버리</li>
+                            <li>맥드라이브</li>
+                            <li>임차문의</li>
+                        </ul>
+                    </li>
+                    <li class="list1">
+                        <a href="#">What's new</a>
+                        <ul class="list2">
+                            <li>프로모션</li>
+                            <li>새로운 소식</li>
+                            <li>이달의 해피밀</li>
+                        </ul>
+                    </li>
+                    <li class="list1">
+                        <a href="#">Story</a>
+                        <ul class="list2">
+                            <li>브랜드 소개</li>
+                            <li>사회적 책임과 지원</li>
+                            <li>맥도날드 경쟁력</li>
+                            <li>맥도날드 사람들</li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="hbutton" id="recruit">RECRUIT</button>
+                <button class="hbutton" id="eng">ENG</button>
+            </nav>
+        </div>
+    </header>
+    <section class="section">
+        <div class="slide">
+            <img src="slide1.png">
+            <script>
+                
+            </script>
+        </div>
+        <div class="aside">
+            <img src="aside.png">
+        </div>
+        <div class="btnTop">
+            <a href="#logo">
+                <img src="btntop.png">
+            </a>
+        </div>
+        <table class="pic">
+            <caption>
+                McDonald's LIVE
+            </caption>
+            <tr>
+                <td>
+                    <img src="1.png"><br>
+                    <h3>바삭한 치킨 패티로</h3>
+                    <h3>더 맛있고, 더 다양하게!</h3>
+                </td>
+                <td>
+                    <img src="2.png">
+                    <h3>2900원부터 즐기는</h3>
+                    <h3>맥모닝 콤보를 만나보세요</h3>
+                </td>
+                <td>
+                    <img src="3.png">
+                    <h3>100% 친환경 커피를 디카페인으로</h3>
+                    <h3>만나보세요</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="4.png">
+                    <h3>진한 딸기 맛이 그대로! 겨울에 즐기는</h3>
+                    <h3>상큼한 봄의 맛</h3>
+                </td>
+                <td>
+                    <img src="5.png">
+                    <h3>샌프란시스코에서 온 길라델리</h3>
+                    <h3>초콜릿으로 만든 핫초코!</h3>
+                </td>
+                <td>
+                    <img src="6.png">
+                    <h3>농장에서 레스토랑까지 좋은 음식을 제공하기</h3>
+                    <h3>위한 맥도날드의 노력을 확인하세요</h3>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <ul class="foot1">
+            <li>개인정보 처리방침</li>
+            <li>위치정보 이용약관</li>
+            <li>사이트맵</li>
+            <li>임차문의</li>
+            <li>고객문의</li>
+            <li>인재채용</li>
+        </ul>
+        <ul class="foot2">
+            <li>한국맥도날드(유)</li>
+            <li>대표자:조주연</li>
+            <li>사업자등록번호: 101-81-26409</li>
+            <li>전화주문 : 1600-5252</li>
+            <li>COPYRIGHT © 2019 ALL RIGHTS RESERVED BY McDonald's.</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
